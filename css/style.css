@@ -1,0 +1,59 @@
+body {
+  /*font-family: rokkitt, 'courier new';*/
+  text-align: center;
+  margin: 0 auto;
+  width: 720px;
+  max-width: 100%;
+  background: #1f618d fixed no-repeat center;
+  background-size: cover;
+}
+h1 {
+  font-size: 500%;
+  color: #fafafa;
+}
+input {
+  width: 600px;
+  max-width: 100%;
+}
+button {
+  margin: 0 0 20px 0;
+  color: black;
+  text-decoration: none;
+}
+hr {
+  margin: 0 50px 10px 50px;
+}
+.menu-item {
+  font-size: 1.4em;
+}
+.well {
+  background-color: rgba(255, 255, 255, 0.55);
+  width: 100%;
+}
+.well a {
+  font-size: 20px;
+}
+#hub {
+  color: limegreen;
+}
+.surprise {
+  color: black !important;
+  background-color: limegreen;
+  border-radius: 8px;
+}
+.black-back {
+  background-color: black !important;
+}
+footer {
+  position: fixed;
+  right: 5px;
+  bottom: 2px;
+  font-family: "Helvetica Neue";
+  color: #fff;
+}
+footer a:link, footer a:visited, footer a:hover, footer a:active {
+  font-size: 110%;
+  vertical-align: sub;
+  text-decoration: none;
+  color: #fff;
+}

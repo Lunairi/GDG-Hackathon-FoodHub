@@ -1,0 +1,55 @@
+body {
+	background-color: #1f618d;
+	text-align: center;
+}
+h1, .uploaded {
+	color: #F5FFFA;
+	margin: 0.5em;
+}
+#item_box {
+	background-color: #b0d6fb;
+	width: 75vw;
+	margin: auto;
+	padding: 0.4em;
+}
+.cell {
+	background-color: rgba(106, 169, 179, 0.29);
+	margin: 1em 1em;
+	padding: 0.4em;
+	display: block;
+	height: 2em;
+	font-size: 1.2em;
+	border-radius: 7px;
+}
+.name {
+	display: inline;
+	float: left;
+}
+.price {
+	display: inline;
+	float: right;
+}
+.selected {
+	background-color: rgba(20, 24, 158, 0.4);
+	color: #F5FFFA;
+}
+.hidden {
+	display: none;
+}
+.uploaded {
+	font-size: 1.5em;
+}
+.surprise {
+	color: black !important;
+	background-color: limegreen;
+	border-radius: 8px;
+}
+.black-back {
+	background-color: black !important;
+}
+#save {
+	background-color: #3CB371;
+	color: #F5FFFA;
+	margin: 1em;
+	font-size: 1.5em;
+}
